@@ -1,0 +1,19 @@
+var searchObj = {
+	name:'地址搜索页',
+	dom:$('#address'),
+	init:function(){
+		//模块初始化的方法
+		this.bindEvent()
+	},
+	bindEvent:function(){
+		console.log('绑定事件')
+	},
+	enter:function(){
+		//进入该模块
+		this.dom.show();
+	},
+	leave:function(){
+		//离开该模块
+		this.dom.hide();
+	}
+}

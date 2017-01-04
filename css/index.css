@@ -12,6 +12,7 @@ html,body {
 	color: white;
 	border-bottom: 1px solid white;
 	box-sizing: border-box;
+	display:none;
 }
 .section a {
 	color: white;
