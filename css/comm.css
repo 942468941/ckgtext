@@ -1,0 +1,11 @@
+body,p,ul,ol,li,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,table,tr,td,img,form,input,img{margin:0;padding:0}
+i,em,b,strong,h1,h2,h3,h4,h5,h6{display:block;font-weight:normal;font-style:normal;}
+ul li{list-style:none}
+a{text-decoration:none;color:#000}
+img{border:none;display:block}
+body{font:12px "微软雅黑"}
+input{display:block;border:none;outline: none;}
+.left{float:left}
+.right{float:right}
+img{cursor: pointer;}
+.clear:after{content:".";height:0;display:block;clear:both;overflow:hidden;visibility:hidden;}
